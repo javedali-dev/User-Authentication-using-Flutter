@@ -1,16 +1,37 @@
-# todo
+# User authentication system using Flutter and Firebase
 
-A new Flutter project.
+![Flutter and Firebase](/images/banner.png)
 
-## Getting Started
+#
 
-This project is a starting point for a Flutter application.
+## Build Locally
 
-A few resources to get you started if this is your first Flutter project:
+- Prerequirest:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  - Android Emulator install and working if not here is [link](https://developer.android.com/studio/run/emulator)
+  - Flutter install on your machine you can verify that by using <br/> `flutter --version`
+  - Firebase account
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone repository on your local machine
+
+  - Create a Folder and navigate to new folder
+    - open your terminal and type:<br/>
+      `mkdir Testing_Project`
+    - navigate to new folder:<br/>
+      ` cd Testing_Project`
+  - Clone repository<br/>
+    ` git clone https://github.com/javedali-dev/User-Authentication-using-Flutter.git`
+
+- Create and configure project in [firebase](https://firebase.google.com/):
+  - Create a account:
+    - Go to [Firebase](https://firebase.google.com/) website and click on **Get started** button
+  - Onced you login in Click on **Add Project**
+  - Now choose your project type. For this project select **Android**.
+  - Register your project
+    - Android package name: go to `AndroidManifest.xml` file and there you can find the package name. for this case give `com.example.todo`
+  - Download Config file: Now download the config file(google-services.json) into `android`->`app`<br/>
+    ![Download config file](/images/1.png)
+  - Add Firebase SDK:<br/>
+    You need to add firebase SDK in order to talk to firebase api. it is preety simple and well documented on firebase website. I added some of screenshot in case you need them.<br/>
+    ![Configure on project level](/images/2.png)<br/>
+    ![Configure on app level](/images/3.png)
