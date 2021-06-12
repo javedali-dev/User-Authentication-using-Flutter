@@ -45,4 +45,5 @@
 
 ## Result:
 
-![result](/assets/result.gif)
+<!-- ![result](/assets/result.gif width="250" height="250") -->
+<img src="/assets/result.gif" width="300" height="600"/>
