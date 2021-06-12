@@ -44,3 +44,7 @@
   - Go to `lib`->`main.dart` file and press `ctrl+F5` or you can do it manually. Go to `Run`-> `Run without Debugging`. It will install the app inside the emulator and run it.
 
 ## Result:
+
+<img src="/assets/result.gif" width="300" height="600"/>
+
+![Firebase Result](assets/4.png)
